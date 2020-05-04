@@ -89,7 +89,7 @@ You have to either run the backend docker container, or the java code if you are
 
 There are three parameters to use when using the backend in dev mode :
 
-- run the web server with `-w`
+- run the web server with `-m one`
 - allow Cross Origin requests (from the front to the back) with `--cors <pattern>`
 - points to the data directory (where the source files are located, the directory must be called `data`) with `-d`
 
